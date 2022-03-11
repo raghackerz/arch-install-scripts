@@ -6,7 +6,7 @@ cd $HOME
 sudo pacman -S xorg xorg-xinit xmonad xmonad-contrib xmobar picom feh
 
 #basic apps
-sudo pacman -S dmenu dunst exa fzf git htop mpv ncdu neofetch neovim pass qalculate-gtk tldr unzip wget which zathura zathura-pdf-poppler zoxide zsh zsh-completions
+sudo pacman -S --needed dmenu dunst exa fzf git htop libnotify mpv ncdu neofetch neovim pass qalculate-gtk tldr ttf-linux-libertine unzip wget which xclip zathura zathura-pdf-mupdf zoxide zsh zsh-completions
 
 #development apps
 #openjdk-jdk
