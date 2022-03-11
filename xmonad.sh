@@ -38,6 +38,12 @@ make
 sudo make install
 cd
 
+#phinger cursor
+git clone https://aur.archlinux.org/phinger-cursors.git
+cd phinger-cursors
+makepkg -si
+cd
+
 #copy dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 git clone --bare https://github.com/raghackerz/dotfiles-personal.git $HOME/.dotfiles/
