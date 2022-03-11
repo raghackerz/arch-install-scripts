@@ -18,7 +18,7 @@ passwd
 # iw, acpi_call, sof-firmware (for mic), firewalld
 pacman -S grub efibootmgr networkmanager dialog wpa_supplicant iw base-devel linux-headers avahi nss-mdns bluez bluez-utils cups hplip alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack acpi acpid tlp
 
-pacman -S nvidia nvidia-utils nvidia-settings
+# pacman -S nvidia nvidia-utils nvidia-settings
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 

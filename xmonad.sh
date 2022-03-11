@@ -2,6 +2,7 @@
 
 cd $HOME
 
+
 #xorg, wm and compositor
 sudo pacman -S xorg xorg-xinit xmonad xmonad-contrib xmobar picom feh
 
