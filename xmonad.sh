@@ -4,14 +4,14 @@ cd $HOME
 
 
 #xorg, wm and compositor
-sudo pacman -S xorg xorg-xinit xmonad xmonad-contrib xmobar picom feh
+sudo pacman -S --needed xorg xorg-xinit xmonad xmonad-contrib xmobar picom feh
 
 #basic apps
 sudo pacman -S --needed dmenu dunst exa fzf git htop libnotify mpv ncdu neofetch neovim pass qalculate-gtk tldr ttf-linux-libertine unzip wget which xclip zathura zathura-pdf-mupdf zoxide zsh zsh-completions
 
 #development apps
 #openjdk-jdk
-sudo pacman -S gcc gdb python 
+sudo pacman -S --needed gcc gdb python 
 
 #font
 sudo mkdir -p /usr/local/share/fonts/otf/
