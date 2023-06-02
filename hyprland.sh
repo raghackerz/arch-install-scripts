@@ -4,11 +4,11 @@ cd $HOME
 
 # TODO: add support to recieve packages list from a file.
 
-#xorg, wm and compositor
-sudo pacman -S --needed xorg xorg-xinit xmonad xmonad-contrib xmobar picom feh nvidia-prime
+# hyprland
+sudo pacman -S --needed wayland hyprland wl-clipboard waybar
 
 #basic apps
-sudo pacman -S --needed dmenu dunst exa fzf git htop libnotify mpv ncdu neofetch neovim pass qalculate-gtk tldr ttf-linux-libertine unzip wget which xclip zathura zathura-pdf-mupdf zoxide zsh zsh-completions ripgrep
+sudo pacman -S --needed wofi dunst exa fzf git htop libnotify mpv ncdu neofetch neovim pass qalculate-gtk tldr ttf-linux-libertine unzip wget which zathura zathura-pdf-mupdf zoxide zsh zsh-completions ripgrep kitty
 
 #development apps
 #openjdk-jdk
@@ -33,13 +33,6 @@ rm -rf CodeNewRoman
 
 fc-cache -fv
 
-
-#st
-git clone https://github.com/raghackerz/st.git st
-cd st
-make
-sudo make install
-cd
 
 #phinger cursor
 git clone https://aur.archlinux.org/phinger-cursors.git
